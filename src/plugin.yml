@@ -1,8 +1,0 @@
-name: DynamicIcon
-main: com.mydeblob.ServerIcon
-version: 1.0
-author: mydeblob
-commands:
-   diupdate:
-      description: Updates the plugin.
-      usage: /<command> 
