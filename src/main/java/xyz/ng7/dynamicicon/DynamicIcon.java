@@ -1,4 +1,4 @@
-package xyz.ng7.DynamicIcon;
+package xyz.ng7.dynamicicon;
 
 import java.io.File;
 import java.util.concurrent.ThreadLocalRandom;
@@ -7,7 +7,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.server.ServerListPingEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class DynamicIcon extends JavaPlugin implements Listener{
+public class DynamicIcon extends JavaPlugin implements Listener {
 	@Override
 	public void onEnable(){
 		getServer().getPluginManager().registerEvents(this, this);

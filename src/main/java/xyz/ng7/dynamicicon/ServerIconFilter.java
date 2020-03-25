@@ -1,4 +1,4 @@
-package xyz.ng7.DynamicIcon;
+package xyz.ng7.dynamicicon;
 
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
