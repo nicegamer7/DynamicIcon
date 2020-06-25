@@ -12,7 +12,7 @@ import java.util.Iterator;
 public class ServerIconFilter implements FileFilter {
     @Override
     public boolean accept(File file) {
-        return !file.isHidden() && file.getName().endsWith(".png") && sizeCheck(file);
+        return !file.isHidden() && file.getName().toLowerCase().endsWith(".png") && this.sizeCheck(file);
     }
 
     private boolean sizeCheck(File img) {
